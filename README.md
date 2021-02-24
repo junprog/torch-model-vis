@@ -9,7 +9,9 @@ Visualization of [grad] (If there is ground-truth)
 *  weight の分散でソート -> 上位3つ 下位3つを表示
 
 ## Design
+```python
 vis = ModelVis()
 model = Model()
 
 vis(model)
+```
